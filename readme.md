@@ -4,12 +4,16 @@
 > react-native 0.58.1
 > React Navigation 3
 
+## Screenshot
+
+![screenshot.gif](screenshot.gif)
+
 ## How To Use
 
 ```bash
 git clone git@github.com:shrekuu/DoubleTapBackButtonToExitAppExample.git
 
-# if this installs too slow, remove yarn.lock and try again 
+# if this installs too slow, remove yarn.lock and try again
 yarn install
 
 # connect your android phone to your mac
@@ -26,7 +30,7 @@ yarn add redux redux-actions react-redux react-navigation react-native-gesture-h
 
 react-native-debugger is experiencing [issues](https://github.com/jhen0409/react-native-debugger/issues/292) due to react-native upgrading to [0.58](https://github.com/react-native-community/react-native-releases/blob/master/CHANGELOG.md#0580)
 
-Do NOT install redux-devtools-extension for now(2019-01-28).  
+Do NOT install redux-devtools-extension for now(2019-01-28).
 ```bash
 yarn add -D redux-devtools-extension
 ```
